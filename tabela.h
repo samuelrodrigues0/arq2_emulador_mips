@@ -1,11 +1,14 @@
 #define INSTRUCOES 30
-
+#define HI 32
+#define LO 33
+#define PC 34
 
 typedef struct {
     unsigned int opcode_funct;
     const char *nome;
     const char tipo;
 } Instrucao;
+
 
 // TIPO R: FUNCT
 // TIPO I,J: OPCODE
